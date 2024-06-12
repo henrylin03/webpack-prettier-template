@@ -4,7 +4,8 @@
   "description": "Template repository for Webpack setup so I don't have to keep setting up for every project :')",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Henry Lin <hello@henrylin.io>",
