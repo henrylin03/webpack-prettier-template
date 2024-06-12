@@ -1,0 +1,12 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Template repository for Webpack setup so I don't have to keep setting up for every project :')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henry Lin <hello@henrylin.io>",
+  "license": "MIT"
+}
