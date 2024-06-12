@@ -7,7 +7,11 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "pretty": "npx prettier . --write",
-    "pretty-check": "npx prettier . --check"
+    "pretty-check": "npx prettier . --check",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "keywords": [],
   "author": "Henry Lin <hello@henrylin.io>",
@@ -15,6 +19,8 @@
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
     "prettier": "3.3.2",
     "style-loader": "^4.0.0",
     "webpack": "^5.92.0",
